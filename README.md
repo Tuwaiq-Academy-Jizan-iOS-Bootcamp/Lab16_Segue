@@ -18,3 +18,7 @@ View Two <br>
 
 View Three <br>
 <img width="366" alt="Screenshot 2021-11-01 at 08 13 19" src="https://user-images.githubusercontent.com/6766037/139624692-203d6fbf-929e-49d2-a502-03e28945ddbc.png">
+
+### Resources 
+
+https://weloveswift.com
