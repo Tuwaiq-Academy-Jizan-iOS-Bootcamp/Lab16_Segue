@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EBC9E07272FC8E900287639 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC9E06272FC8E900287639 /* AppDelegate.swift */; };
+		1EBC9E09272FC8E900287639 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC9E08272FC8E900287639 /* SceneDelegate.swift */; };
+		1EBC9E0B272FC8E900287639 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC9E0A272FC8E900287639 /* ViewController.swift */; };
+		1EBC9E0E272FC8E900287639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBC9E0C272FC8E900287639 /* Main.storyboard */; };
+		1EBC9E10272FC8EA00287639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EBC9E0F272FC8EA00287639 /* Assets.xcassets */; };
+		1EBC9E13272FC8EA00287639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBC9E11272FC8EA00287639 /* LaunchScreen.storyboard */; };
+		1EBC9E1E272FC8EA00287639 /* AMAL_JELI__10B16_VIEW_CONTROLERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC9E1D272FC8EA00287639 /* AMAL_JELI__10B16_VIEW_CONTROLERTests.swift */; };
+		1EBC9E28272FC8EA00287639 /* AMAL_JELI__10B16_VIEW_CONTROLERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC9E27272FC8EA00287639 /* AMAL_JELI__10B16_VIEW_CONTROLERUITests.swift */; };
+		1EBC9E2A272FC8EA00287639 /* AMAL_JELI__10B16_VIEW_CONTROLERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC9E29272FC8EA00287639 /* AMAL_JELI__10B16_VIEW_CONTROLERUITestsLaunchTests.swift */; };
+		1EBC9E39272FCDE200287639 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC9E38272FCDE200287639 /* ViewControllerTwo.swift */; };
+		1EBC9E3B272FCE4C00287639 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC9E3A272FCE4C00287639 /* ViewControllerThree.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EBC9E1A272FC8EA00287639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EBC9DFB272FC8E900287639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EBC9E02272FC8E900287639;
+			remoteInfo = "AMAL JELI _10B16 VIEW CONTROLER";
+		};
+		1EBC9E24272FC8EA00287639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EBC9DFB272FC8E900287639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EBC9E02272FC8E900287639;
+			remoteInfo = "AMAL JELI _10B16 VIEW CONTROLER";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EBC9E03272FC8E900287639 /* AMAL JELI _10B16 VIEW CONTROLER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AMAL JELI _10B16 VIEW CONTROLER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBC9E06272FC8E900287639 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EBC9E08272FC8E900287639 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1EBC9E0A272FC8E900287639 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EBC9E0D272FC8E900287639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EBC9E0F272FC8EA00287639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EBC9E12272FC8EA00287639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EBC9E14272FC8EA00287639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EBC9E19272FC8EA00287639 /* AMAL JELI _10B16 VIEW CONTROLERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AMAL JELI _10B16 VIEW CONTROLERTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBC9E1D272FC8EA00287639 /* AMAL_JELI__10B16_VIEW_CONTROLERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMAL_JELI__10B16_VIEW_CONTROLERTests.swift; sourceTree = "<group>"; };
+		1EBC9E23272FC8EA00287639 /* AMAL JELI _10B16 VIEW CONTROLERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AMAL JELI _10B16 VIEW CONTROLERUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBC9E27272FC8EA00287639 /* AMAL_JELI__10B16_VIEW_CONTROLERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMAL_JELI__10B16_VIEW_CONTROLERUITests.swift; sourceTree = "<group>"; };
+		1EBC9E29272FC8EA00287639 /* AMAL_JELI__10B16_VIEW_CONTROLERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMAL_JELI__10B16_VIEW_CONTROLERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1EBC9E38272FCDE200287639 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		1EBC9E3A272FCE4C00287639 /* ViewControllerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EBC9E00272FC8E900287639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBC9E16272FC8EA00287639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBC9E20272FC8EA00287639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EBC9DFA272FC8E900287639 = {
+			isa = PBXGroup;
+			children = (
+				1EBC9E05272FC8E900287639 /* AMAL JELI _10B16 VIEW CONTROLER */,
+				1EBC9E1C272FC8EA00287639 /* AMAL JELI _10B16 VIEW CONTROLERTests */,
+				1EBC9E26272FC8EA00287639 /* AMAL JELI _10B16 VIEW CONTROLERUITests */,
+				1EBC9E04272FC8E900287639 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EBC9E04272FC8E900287639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EBC9E03272FC8E900287639 /* AMAL JELI _10B16 VIEW CONTROLER.app */,
+				1EBC9E19272FC8EA00287639 /* AMAL JELI _10B16 VIEW CONTROLERTests.xctest */,
+				1EBC9E23272FC8EA00287639 /* AMAL JELI _10B16 VIEW CONTROLERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EBC9E05272FC8E900287639 /* AMAL JELI _10B16 VIEW CONTROLER */ = {
+			isa = PBXGroup;
+			children = (
+				1EBC9E06272FC8E900287639 /* AppDelegate.swift */,
+				1EBC9E08272FC8E900287639 /* SceneDelegate.swift */,
+				1EBC9E0A272FC8E900287639 /* ViewController.swift */,
+				1EBC9E38272FCDE200287639 /* ViewControllerTwo.swift */,
+				1EBC9E3A272FCE4C00287639 /* ViewControllerThree.swift */,
+				1EBC9E0C272FC8E900287639 /* Main.storyboard */,
+				1EBC9E0F272FC8EA00287639 /* Assets.xcassets */,
+				1EBC9E11272FC8EA00287639 /* LaunchScreen.storyboard */,
+				1EBC9E14272FC8EA00287639 /* Info.plist */,
+			);
+			path = "AMAL JELI _10B16 VIEW CONTROLER";
+			sourceTree = "<group>";
+		};
+		1EBC9E1C272FC8EA00287639 /* AMAL JELI _10B16 VIEW CONTROLERTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EBC9E1D272FC8EA00287639 /* AMAL_JELI__10B16_VIEW_CONTROLERTests.swift */,
+			);
+			path = "AMAL JELI _10B16 VIEW CONTROLERTests";
+			sourceTree = "<group>";
+		};
+		1EBC9E26272FC8EA00287639 /* AMAL JELI _10B16 VIEW CONTROLERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EBC9E27272FC8EA00287639 /* AMAL_JELI__10B16_VIEW_CONTROLERUITests.swift */,
+				1EBC9E29272FC8EA00287639 /* AMAL_JELI__10B16_VIEW_CONTROLERUITestsLaunchTests.swift */,
+			);
+			path = "AMAL JELI _10B16 VIEW CONTROLERUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EBC9E02272FC8E900287639 /* AMAL JELI _10B16 VIEW CONTROLER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBC9E2D272FC8EA00287639 /* Build configuration list for PBXNativeTarget "AMAL JELI _10B16 VIEW CONTROLER" */;
+			buildPhases = (
+				1EBC9DFF272FC8E900287639 /* Sources */,
+				1EBC9E00272FC8E900287639 /* Frameworks */,
+				1EBC9E01272FC8E900287639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AMAL JELI _10B16 VIEW CONTROLER";
+			productName = "AMAL JELI _10B16 VIEW CONTROLER";
+			productReference = 1EBC9E03272FC8E900287639 /* AMAL JELI _10B16 VIEW CONTROLER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EBC9E18272FC8EA00287639 /* AMAL JELI _10B16 VIEW CONTROLERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBC9E30272FC8EA00287639 /* Build configuration list for PBXNativeTarget "AMAL JELI _10B16 VIEW CONTROLERTests" */;
+			buildPhases = (
+				1EBC9E15272FC8EA00287639 /* Sources */,
+				1EBC9E16272FC8EA00287639 /* Frameworks */,
+				1EBC9E17272FC8EA00287639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EBC9E1B272FC8EA00287639 /* PBXTargetDependency */,
+			);
+			name = "AMAL JELI _10B16 VIEW CONTROLERTests";
+			productName = "AMAL JELI _10B16 VIEW CONTROLERTests";
+			productReference = 1EBC9E19272FC8EA00287639 /* AMAL JELI _10B16 VIEW CONTROLERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EBC9E22272FC8EA00287639 /* AMAL JELI _10B16 VIEW CONTROLERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBC9E33272FC8EA00287639 /* Build configuration list for PBXNativeTarget "AMAL JELI _10B16 VIEW CONTROLERUITests" */;
+			buildPhases = (
+				1EBC9E1F272FC8EA00287639 /* Sources */,
+				1EBC9E20272FC8EA00287639 /* Frameworks */,
+				1EBC9E21272FC8EA00287639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EBC9E25272FC8EA00287639 /* PBXTargetDependency */,
+			);
+			name = "AMAL JELI _10B16 VIEW CONTROLERUITests";
+			productName = "AMAL JELI _10B16 VIEW CONTROLERUITests";
+			productReference = 1EBC9E23272FC8EA00287639 /* AMAL JELI _10B16 VIEW CONTROLERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EBC9DFB272FC8E900287639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					1EBC9E02272FC8E900287639 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					1EBC9E18272FC8EA00287639 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 1EBC9E02272FC8E900287639;
+					};
+					1EBC9E22272FC8EA00287639 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 1EBC9E02272FC8E900287639;
+					};
+				};
+			};
+			buildConfigurationList = 1EBC9DFE272FC8E900287639 /* Build configuration list for PBXProject "AMAL JELI _10B16 VIEW CONTROLER" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EBC9DFA272FC8E900287639;
+			productRefGroup = 1EBC9E04272FC8E900287639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EBC9E02272FC8E900287639 /* AMAL JELI _10B16 VIEW CONTROLER */,
+				1EBC9E18272FC8EA00287639 /* AMAL JELI _10B16 VIEW CONTROLERTests */,
+				1EBC9E22272FC8EA00287639 /* AMAL JELI _10B16 VIEW CONTROLERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EBC9E01272FC8E900287639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBC9E13272FC8EA00287639 /* LaunchScreen.storyboard in Resources */,
+				1EBC9E10272FC8EA00287639 /* Assets.xcassets in Resources */,
+				1EBC9E0E272FC8E900287639 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBC9E17272FC8EA00287639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBC9E21272FC8EA00287639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EBC9DFF272FC8E900287639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBC9E3B272FCE4C00287639 /* ViewControllerThree.swift in Sources */,
+				1EBC9E0B272FC8E900287639 /* ViewController.swift in Sources */,
+				1EBC9E07272FC8E900287639 /* AppDelegate.swift in Sources */,
+				1EBC9E09272FC8E900287639 /* SceneDelegate.swift in Sources */,
+				1EBC9E39272FCDE200287639 /* ViewControllerTwo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBC9E15272FC8EA00287639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBC9E1E272FC8EA00287639 /* AMAL_JELI__10B16_VIEW_CONTROLERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EBC9E1F272FC8EA00287639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBC9E2A272FC8EA00287639 /* AMAL_JELI__10B16_VIEW_CONTROLERUITestsLaunchTests.swift in Sources */,
+				1EBC9E28272FC8EA00287639 /* AMAL_JELI__10B16_VIEW_CONTROLERUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EBC9E1B272FC8EA00287639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EBC9E02272FC8E900287639 /* AMAL JELI _10B16 VIEW CONTROLER */;
+			targetProxy = 1EBC9E1A272FC8EA00287639 /* PBXContainerItemProxy */;
+		};
+		1EBC9E25272FC8EA00287639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EBC9E02272FC8E900287639 /* AMAL JELI _10B16 VIEW CONTROLER */;
+			targetProxy = 1EBC9E24272FC8EA00287639 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EBC9E0C272FC8E900287639 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EBC9E0D272FC8E900287639 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EBC9E11272FC8EA00287639 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EBC9E12272FC8EA00287639 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EBC9E2B272FC8EA00287639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EBC9E2C272FC8EA00287639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EBC9E2E272FC8EA00287639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AMAL JELI _10B16 VIEW CONTROLER/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.AMAL-JELI--10B16-VIEW-CONTROLER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EBC9E2F272FC8EA00287639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AMAL JELI _10B16 VIEW CONTROLER/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.AMAL-JELI--10B16-VIEW-CONTROLER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1EBC9E31272FC8EA00287639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.AMAL-JELI--10B16-VIEW-CONTROLERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMAL JELI _10B16 VIEW CONTROLER.app/AMAL JELI _10B16 VIEW CONTROLER";
+			};
+			name = Debug;
+		};
+		1EBC9E32272FC8EA00287639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.AMAL-JELI--10B16-VIEW-CONTROLERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMAL JELI _10B16 VIEW CONTROLER.app/AMAL JELI _10B16 VIEW CONTROLER";
+			};
+			name = Release;
+		};
+		1EBC9E34272FC8EA00287639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.AMAL-JELI--10B16-VIEW-CONTROLERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AMAL JELI _10B16 VIEW CONTROLER";
+			};
+			name = Debug;
+		};
+		1EBC9E35272FC8EA00287639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQP67L8BR4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AMAL.AMAL-JELI--10B16-VIEW-CONTROLERUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AMAL JELI _10B16 VIEW CONTROLER";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EBC9DFE272FC8E900287639 /* Build configuration list for PBXProject "AMAL JELI _10B16 VIEW CONTROLER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBC9E2B272FC8EA00287639 /* Debug */,
+				1EBC9E2C272FC8EA00287639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBC9E2D272FC8EA00287639 /* Build configuration list for PBXNativeTarget "AMAL JELI _10B16 VIEW CONTROLER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBC9E2E272FC8EA00287639 /* Debug */,
+				1EBC9E2F272FC8EA00287639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBC9E30272FC8EA00287639 /* Build configuration list for PBXNativeTarget "AMAL JELI _10B16 VIEW CONTROLERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBC9E31272FC8EA00287639 /* Debug */,
+				1EBC9E32272FC8EA00287639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBC9E33272FC8EA00287639 /* Build configuration list for PBXNativeTarget "AMAL JELI _10B16 VIEW CONTROLERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBC9E34272FC8EA00287639 /* Debug */,
+				1EBC9E35272FC8EA00287639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EBC9DFB272FC8E900287639 /* Project object */;
+}
