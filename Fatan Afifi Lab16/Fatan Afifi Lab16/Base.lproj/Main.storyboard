@@ -24,13 +24,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P33-jm-9n5">
-                                <rect key="frame" x="93" y="533" width="227" height="50"/>
+                                <rect key="frame" x="90" y="548" width="227" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Go To View Tow">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="AV4-mR-7zD" kind="show" id="myg-q4-vKo"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -65,11 +68,15 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Go To View Three">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Wgj-pw-iKk" kind="show" id="MYd-5O-Uhh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tn3-UK-jNU"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="wMf-aS-xNn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5TH-6e-gop" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -94,6 +101,7 @@
                         <viewLayoutGuide key="safeArea" id="BrS-Vv-Qw8"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="rXV-Iq-dFE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kgg-dE-Upr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
